@@ -1,0 +1,27 @@
+.content {
+    width: 1180px;
+    max-width: calc(100% - 48px);
+    margin: 0 auto;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes myMove {
+    50% {
+        perspective: 100px;
+    }
+}
